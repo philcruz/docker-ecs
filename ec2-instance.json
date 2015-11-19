@@ -1,0 +1,12 @@
+{
+		"DryRun": true,
+		"ImageId": "ami-a39df1c3",
+		"KeyName": "my-amazon-key-pair",
+		"SecurityGroups": [
+				"my-security-group"
+		],
+		"InstanceType": "t2.micro",
+		"IamInstanceProfile": {
+				"Name": "ecsInstanceRole"
+		}
+}
